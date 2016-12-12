@@ -1,0 +1,64 @@
+<template>
+    <h2>Validation</h2>
+
+    <form>
+        <div>
+            <label for="edtNames">Names</label>
+            <input id="edtNames" type="text" required="required" aria-required="true" title="firstname" value="required text"></input>
+
+            <label for="edtDuration">Duration</label>
+            <input id="edtDuration" type="text" title="firstname lastname" pattern="regx here without ^ and $"></input>
+
+            <label for="edtEmail">Email</label>
+            <input id="edtEmail" type="email" title="email"></input>
+
+            <label for="edtUrl">URL</label>
+            <input id="edtUrl" type="url" title="url"></input>
+
+            <label for="edtTelephone">Telephone</label>
+            <input id="edtTelephone" type="tel" title="telephone"></input>
+
+            <label for="edtColor">Color</label>
+            <input id="edtColor" type="color" title="color"></input>
+
+            <label for="edtDate">Date</label>
+            <input id="edtDate" type="date" title="date"></input>
+
+            <label for="edtDateTime">Date Time</label>
+            <input id="edtDateTime" type="datetime" title="date time"></input>
+
+            <label for="edtDateTimeLocal">Date Time</label>
+            <input id="edtDateTimeLocal" type="datetime-local" title="date time local"></input>
+
+            <label for="edtMonth">Date Time</label>
+            <input id="edtMonth" type="month" title="month"></input>
+
+            <label for="edtWeek">Date Time</label>
+            <input id="edtWeek" type="week" title="week"></input>
+
+            <label for="edtTime">Time</label>
+            <input id="edtTime" type="time" title="month"></input>
+
+            <label for="edtNumber">Number</label>
+            <input id="edtNumber" type="number" title="number"></input>
+
+            <label for="edtRange">Range</label>
+            <input id="edtRange" type="range" title="range" min="0" max="100" value="25"></input>
+
+            <label for="edtSearch">Search</label>
+            <input id="edtSearch" type="search" title="search"></input>
+
+            <label for="edtProgress">Progress</label>
+            <progress id="edtProgress" min="0" max="100" value="50"></progress>
+
+            <label for="edtMeter">Meter</label>
+            <meter id="edtMeter" min="0" max="100" value="50"></meter>
+        </div>
+
+        <div>
+            <button type="submit">Save</button>
+            <button type="reset">Reset</button>
+        </div>
+
+    </form>
+</template>
